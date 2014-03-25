@@ -7,4 +7,4 @@ The problem: It appears that the parent container playing host to our two floate
 1. Open index.html in your web browser.
 2. Modify the code until the challenge is satisfied.
 
-HINT: There is more than one way to correct this issue. In fact, there are three.
+HINT: There is more than one way to correct this issue. In fact, there are at least three.
