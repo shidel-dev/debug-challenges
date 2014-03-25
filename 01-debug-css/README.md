@@ -1,10 +1,11 @@
 # Debug Challenges: CSS
 
-The skinny: You're trying to display two articles next to one another while maintaining a consistent box model.
+This is a simple webpage containing two articles, positioned next to each other on a grey background.
 
-The problem: It appears that the parent container playing host to our two floated elements is collapsing.  Make the necessary changes within app.css to correct the collapsing element.
+The challenge: The grey background is collapsing, but shouldn't.
 
 1. Open index.html in your web browser.
 2. Modify the code until the challenge is satisfied.
+3. Create a pull request with your solution. Be sure to explain how you solved it in your pull request's description.
 
-HINT: There is more than one way to correct this issue. In fact, there are three.
+:warning: There is more than one way to correct this issue. In fact, there are at least _three_.
