@@ -1,0 +1,18 @@
+# environment
+ENV['RACK_ENV'] ||= 'development'
+
+# load path
+lib_path = File.expand_path('../lib', __FILE__)
+($:.unshift lib_path) unless ($:.include? lib_path)
+
+require 'bundler'
+Bundler.require(:default)
+require 'rake/testtask'
+
+Rake::TestTask.new do |t|
+  t.libs << "spec"
+  t.pattern = "spec/**/*_spec.rb"
+end
+
+# tasks
+task :default => [:test]
