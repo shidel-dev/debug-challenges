@@ -17,7 +17,7 @@ p {
 }
 
 #main {
-  border: 5px solid red;
+  background-color: #eee;
   margin: 0 auto;
   max-width: 840px;
   padding: 20px;
