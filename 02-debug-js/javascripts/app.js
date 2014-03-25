@@ -10,7 +10,7 @@
         $article = $('article'),
         $relArticle = $this.next('article');
 
-    // HINT: Something should happen here...
+    // Something else should happen here...
 
     if($relArticle.hasClass('expanded')) {
       return;
