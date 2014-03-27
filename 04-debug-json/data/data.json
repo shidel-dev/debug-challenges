@@ -1,4 +1,4 @@
-var productList = [
+[
   {
     "category": "Best Picture Books",
     "products": [

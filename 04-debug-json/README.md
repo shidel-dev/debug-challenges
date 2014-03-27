@@ -1,8 +1,12 @@
-# Debug Challenges: JSON
+# Debug Challenges: JSON/AJAX
 
-You are being presented with a simple html page, and some data.  Your objective is to get the data onto the page.  Refer to the comp.jpg image to see what your data should look like. Do not focus to heavily on CSS with this excercise.  The idea is to test your understanding of JSON and rendering data.
+This challenge is made up of two compontents, a simple html file (public/index.html) and an api endpoint that returns JSON. 
 
-1. Open index.html in your web browser.
+The site URL is: `http://localhost:3300/index.hml`
+The endpoint URL is: `http://localhost:3300/products`
+
+The challenge: Query the endpoint with JavaScript and display all of the content it returns in the web page. There should only 4 items per row.
+
+1. To install dependencies, run `bundle install`. To start the servers, run `bundle exec foreman start`
 2. Modify the code until the challenge is satisfied.
-3. Create a pull request with your solution. Be sure to explain how you solved it in your pull request's description.
-
+3. Create a pull request with your solution. Be sure to explain how you satisfied the challenge in your pull request's description.
