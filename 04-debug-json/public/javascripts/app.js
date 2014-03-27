@@ -2,7 +2,7 @@
 
 !function($) {
   $.ajax({
-   method:"GET",
+   type:"GET",
    url:"http://localhost:3300/products",
    success:function(res){
    	displayProducts(res);
