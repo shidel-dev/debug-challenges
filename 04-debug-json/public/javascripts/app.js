@@ -13,7 +13,7 @@
   	var allProducts = products[0]["products"].concat(products[1]["products"]);
   	for(var i = 0; i < allProducts.length; i++){
   		if(i <= 4){
-  			$("#all").append("<li><img src='./images/products/"+ allProducts[i]["image"]+"''></img>")
+  			$("#all").append("<img src='./images/products/"+ allProducts[i]["image"]+"''></img>")
   		}else if(i <= 9){
   			$("#best").append("<img src='./images/products/"+ allProducts[i]["image"]+"''></img>")
   		}else if (i <= 14){
